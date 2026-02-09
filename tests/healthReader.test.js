@@ -1,4 +1,4 @@
-const { readHealthData, countHealthEntries } = require("./healthReader");
+const { readHealthData, countHealthEntries } = require("../healthReader");
 const fs = require("fs");
 
 describe("Health Reader Tests", () => {

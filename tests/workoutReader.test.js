@@ -1,4 +1,4 @@
-const { calculateWorkouts } = require("./workoutReader");
+const { calculateWorkouts } = require("../workoutReader");
 
 describe("Workout Reader Tests", () => {
   test("Reads valid CSV and returns correct structure", async () => {
